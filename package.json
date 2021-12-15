@@ -1,0 +1,37 @@
+{
+  "name": "paschoalotto-amazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --config-file cypress.json",
+    "cypress:run2": "cypress run --config-file cypress.json mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json",
+    "cypress:run:homol": "cypress run --config-file cypress.homol.json",
+    "cypress:run:dev": "cypress run --config-file cypress.dev.json",
+    "cypress:run:prod": "cypress run --config-file cypress.prod.json",
+    "test:all": "cypress run --spec \"**/*.features\"",
+    "cy:run": "cypress run",
+    "allure:report": "allure generate allure-results",
+    "allure:clear": "rm -r allure-results/ allure-report || true",
+    "allure:open": "allure open allure-report",
+    "test": "npx npm-run-all cy:run allure:clear allure:report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/amazon/features/**/"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.23.0",
+    "cypress": "^9.1.1",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-localstorage-commands": "^1.5.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-xpath": "^1.6.2",
+    "faker": "^5.4.0",
+    "remove-node-modules": "^1.7.6"
+  }
+}

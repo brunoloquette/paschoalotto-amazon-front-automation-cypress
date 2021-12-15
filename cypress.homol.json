@@ -1,0 +1,11 @@
+{
+    "screenshotOnRunFailure": false,
+    "trashAssetsBeforeRuns": false,
+    "video": false,
+    "includeShadowDom": true,
+    "defaultCommandTimeout": 10000,
+    "retries": 0,
+    "testFiles": "**/*.{feature,features}",
+    "chromeWebSecurity": false,
+    "baseUrl": "https://www.amazon-homol.com.br/"
+}

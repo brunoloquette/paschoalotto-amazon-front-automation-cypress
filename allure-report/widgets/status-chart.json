@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9e77da3dd42329dc",
+  "name" : "Acessar página incial e adicionar produtos ao carrinho",
+  "time" : {
+    "start" : 1639597609501,
+    "stop" : 1639597690818,
+    "duration" : 81317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

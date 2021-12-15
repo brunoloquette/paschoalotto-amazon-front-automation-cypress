@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Acessar página inicial e adicionar produtos ao carrinho",
+    "children" : [ {
+      "name" : "Acessar página incial e adicionar produtos ao carrinho",
+      "uid" : "9e77da3dd42329dc",
+      "parentUid" : "7419100fe2b2ba6f90c1e58db458dfa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639597609501,
+        "stop" : 1639597690818,
+        "duration" : 81317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7419100fe2b2ba6f90c1e58db458dfa2"
+  } ]
+}

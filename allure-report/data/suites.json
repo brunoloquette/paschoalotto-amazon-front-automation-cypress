@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Acessar página inicial e adicionar produtos ao carrinho",
+    "children" : [ {
+      "name" : "Acessar página incial e adicionar produtos ao carrinho",
+      "uid" : "9e77da3dd42329dc",
+      "parentUid" : "a796441bd9cc415d3dfd3d4c9b464ff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639597609501,
+        "stop" : 1639597690818,
+        "duration" : 81317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a796441bd9cc415d3dfd3d4c9b464ff2"
+  } ]
+}
