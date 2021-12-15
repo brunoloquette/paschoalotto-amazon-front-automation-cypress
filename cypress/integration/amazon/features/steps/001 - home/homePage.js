@@ -49,11 +49,14 @@ Given(`Eu clique no botão carrinho`, () => {
     HomePage.clickButtoncart();
 });
 
-And(`Eu vejo o titulo carrinho de compras`, () => {
+And(`Eu vejo o título carrinho de compras`, () => {
     HomePage.assertCar();
 });
 
-Then(`Eu vejo os 3 produtos no carrinho`, () => {
+And(`Eu vejo os 3 produtos no carrinho`, () => {
     HomePage.assertProduct();
 });
 
+Then(`Eu exporto os dados do pedido em csv`, () => {
+    HomePage.exportCsv();
+});

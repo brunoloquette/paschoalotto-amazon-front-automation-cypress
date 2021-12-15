@@ -42,8 +42,9 @@ Feature: Acessar página inicial e adicionar produtos ao carrinho
     Then Eu vejo a mensagem de adicionado ao carrinho
 
     Given Eu clique no botão carrinho
-    And Eu vejo o titulo carrinho de compras
-    Then Eu vejo os 3 produtos no carrinho
+    And Eu vejo o título carrinho de compras
+    And Eu vejo os 3 produtos no carrinho
+    Then Eu exporto os dados do pedido em csv
 
 
 
